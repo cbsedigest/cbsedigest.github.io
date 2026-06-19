@@ -229,8 +229,8 @@ submitBtn.addEventListener('click', (e) => {
 function scrollToSection(sectionId) {
     const element = document.getElementById(sectionId);
     if (element) {
-        const headerHeight = 60; // Fixed header height
-        const elementPosition = element.offsetTop - headerHeight;
+        const headerOffset = 110; // Fixed header height + breathing room so the pretitle label isn't hidden
+        const elementPosition = element.offsetTop - headerOffset;
         window.scrollTo({
             top: elementPosition,
             behavior: 'smooth'
