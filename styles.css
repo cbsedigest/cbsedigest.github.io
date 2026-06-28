@@ -1215,13 +1215,13 @@ section {
 /* Watermark Number on White Card - Top Right Corner */
 .card-watermark {
     position: absolute;
-    top: 10;
-    right: 10;
+    top: 0;
+    right: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-    font-size: 120px;
-    font-weight: 500;
+    font-size: 110px;
+    font-weight: 400;
     opacity: 0.2;
-    line-height: 0.8;
+    line-height: 0.9;
     pointer-events: none;
     z-index: 1;
     margin: 0;
